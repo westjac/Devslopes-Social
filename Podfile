@@ -10,6 +10,7 @@ pod ‘Firebase/Core’
 pod ‘Firebase/Auth’
 pod ‘Firebase/Database’
 pod ‘Firebase/Storage’
+pod 'FBSDKLoginKit'
   target 'Devslopes SocialTests' do
     inherit! :search_paths
     # Pods for testing

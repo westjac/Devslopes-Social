@@ -76,6 +76,9 @@
                                     <constraint firstAttribute="height" constant="150" id="m6N-4G-l1v"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fs1-ra-csj"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-GZ-KLC">
                                 <rect key="frame" x="52" y="421" width="263" height="110"/>
