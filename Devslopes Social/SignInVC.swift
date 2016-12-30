@@ -19,7 +19,11 @@ class SignInVC: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
+    }
+   
+    @IBAction func signInBtnTapped(_ sender: Any) {
     }
 
     @IBAction func facebookBtnTapped(_ sender: Any) {
